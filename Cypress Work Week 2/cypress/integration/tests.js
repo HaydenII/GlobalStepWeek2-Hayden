@@ -4,7 +4,7 @@ describe("herokuapp", () => {
     beforeEach(() => {
         cy.visit("https://the-internet.herokuapp.com/")
     })
-
+	// week 1
     context("Checkboxes", () => {
         it("Checkboxes", () => {
             cy.visit("https://the-internet.herokuapp.com/checkboxes")
@@ -81,7 +81,8 @@ describe("herokuapp", () => {
             .click()
         })
     })
-
+	
+	// Week 2
     context("Drag and drop", () =>{
         it("Drag box A over to box B to switch them around", () => {
             cy.visit("https://the-internet.herokuapp.com/drag_and_drop")
