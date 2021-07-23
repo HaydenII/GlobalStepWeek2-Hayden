@@ -1,4 +1,4 @@
-# GlobalStepWeek2-Hayden
+# Globalstep-work
 
 **API work contains:**
 
